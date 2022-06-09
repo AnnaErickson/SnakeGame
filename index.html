@@ -13,7 +13,7 @@
     }
 
     body {
-      background: darkgray;
+      background: black;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -39,14 +39,14 @@
     }
 
     #score {
-      color: darkcyan;
+      color: hotpink;
       position: absolute;
       left: 155px;
       top: 10px;
     }
 
     #high {
-      color: darkcyan;
+      color: hotpink;
       position: absolute;
       left: 195px;
       top: 30px;
@@ -123,7 +123,7 @@
       }
       count = 0;
       context.clearRect(0, 0, canvas.width, canvas.height);
-      // move snake by it's velocity
+      // move snake speed 
       snake.x += snake.dx;
       snake.y += snake.dy;
       // wrap snake position horizontally on edge of screen
